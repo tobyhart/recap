@@ -1,0 +1,17 @@
+h1 {
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav {
+        background-image: url("Images/Screen%20Shot%202020-02-27%20at%209.35.29%20AM.png");
+        background-position: cover;
+        height: 100px;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+}
